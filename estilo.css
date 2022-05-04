@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Outfit';
+}
+
+.cabecalho{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding-left: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #444444;
+    font-size: 18px;
+}
+
+.menu a.link-ativo{
+    font-weight: bold;
+    background-color: #996830;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 0px;
+}
+
+.titulo{
+    width: 1280px;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 90px;
+    color: #2C2C2C
+}
+
+.paragrafo{
+    width: 1280px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    color: #444444;
+}
+
+.ima{
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+.banner01-titulo{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: left;
+}
+
+.banner01-conteudo{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner01-paragrafo{
+    font-size: 18px;
+    font-weight: 200;
+    color: #444444;
+    line-height: 32px;
+    margin-bottom: 45px;
+
+}
+
+.banner01-col-esquerda{
+    text-align: left;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+.banner01-col-direita{
+    text-align: right;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+.botao01{
+    font-size: 20px;
+    color: #996830;
+    text-decoration: none;
+}
+
+.numeros-letras{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.letras{
+    position: static;
+    width: 233px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 10px;
+    display: flex;
+}
+
+.numero{
+    font-size: 60px;
+    position: static;
+    width: 135px;
+    height: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0px 16px;
+    display: flex;
+}
+
+.numeros-letra{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.numero-letra{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.tudo{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.traxo{
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.titulo02{
+    align-items: center;
+    width: 1280px;
+    margin: 100px auto;
+}
+
+.tudo02{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px ;
+}
+
+.imagen01{    
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    height: 300px;
+    border: 1px solid #E6D8CC
+}
+
+.banner01-colu-esquerda{
+    text-align: left;
+    width: 1280px;
+    margin: 90px auto;
+}
+
+.banner01-colu-direita{
+    text-align: right;
+    width: 1280px;
+    margin: 90px auto;
+    float: right;
+}
