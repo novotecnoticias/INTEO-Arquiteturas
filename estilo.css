@@ -63,6 +63,8 @@
         font-size: 50px;
         font-weight: bold;
         text-align: left;
+        font-style: normal;
+        font-family: 'Playfair Display';
 }
 
 .banner01-conteudo{
@@ -181,14 +183,99 @@
 }
 
 .banner01-colu-esquerda{
-    text-align: left;
     width: 1280px;
     margin: 90px auto;
 }
 
 .banner01-colu-direita{
-    text-align: right;
     width: 1280px;
     margin: 90px auto;
-    float: right;
+}
+
+.banner01{
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.h6{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin: 16px 0px;
+    align-items: center;
+}
+
+.para{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin: 14px 0px;
+    align-items: center;
+    font-style: italic;
+    color: #996830;
+    
+}
+
+.ame{
+    font-size: 24px;
+    font-family: 'Playfair Display';
+    text-align: left;
+    padding: 15px;
+}
+
+.av{
+    font-size: 14px;
+    font-family: 'Outfit';
+    text-align: left;
+    padding: 15px;
+}
+
+.par{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    margin: 16px 0px;
+    align-items: center;
+    font-style: italic;
+    color: #996830;
+    text-align: left;
+}
+
+.h7{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin: 16px 0px;
+    text-align: right;
+
+}
+
+
+.tudo03{
+    display: flex;
+    width: 1280px;
+    margin: 90px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao04{
+    font-weight: bold;
+    background-color: #996830;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 0px;
+}
+.imga{
+    width: 650px;
+    height: 360px;
+}
+
+.banner01-titul{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin: 14px 0px;
+    align-items: center;
+    font-style: italic;
+    color: #2C2C2C;
 }
