@@ -1,2 +1,2 @@
 # INTEO-Arquiteturas
-Primeira Avaliação 
+Uma das primeiras avaliações
